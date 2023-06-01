@@ -1,0 +1,35 @@
+.contact-wrapper {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-header {
+    margin-top: -1px;
+    height: 50px;
+    background: #141414af;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    border-bottom: #141414;
+    border-bottom-style: solid;
+}
+
+.contact-container {
+    background-color: #141414af;
+    position: absolute;
+    height: 200px;
+    color: white;
+    text-align: center;
+    width: 250px;
+    left: 20%;
+    bottom: 35%;
+    border: #141414;
+    border-style: solid;
+}
+
+#contact {
+    margin-top: 50px;
+    
+}

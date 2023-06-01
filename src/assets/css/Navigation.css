@@ -1,0 +1,22 @@
+.Nav {
+background: #141414 ;
+color: #141414;
+}
+
+.nav-button {
+    color: white;
+    margin: 10px;
+}
+
+.nav-button :hover {
+    color: grey
+}
+
+a.nav-link:hover {
+    color: grey;
+}
+
+a.nav-link {
+    color: white;
+    text-align: right;
+}

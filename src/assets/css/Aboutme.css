@@ -1,0 +1,90 @@
+.about-wrapper {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-header {
+    margin-top: -1px;
+    height: 50px;
+    background: #141414af;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    border-bottom: #141414;
+    border-bottom-style: solid;
+}
+
+.my-image {
+    border:#141414;
+    border-style: solid;
+    position: absolute;
+    left: 0px;
+    border-top: none;
+    width: 195px;
+}
+
+img.image {
+    width: 189px;
+}
+
+.my-info {
+    color: white;
+    background: #141414af;
+    margin-top: 125px;
+    height: 300px;
+    position: absolute;
+    top: 226px;
+    right: 0px;
+    width: 50%;
+    text-align: center;
+}
+
+.skills-info {
+    color: white;
+    background:#141414af;
+    text-align: center;
+    position:absolute;
+    height: 330px;
+    top: 650px;
+    width: 50%;
+}
+
+.my-skills-header {
+    text-decoration: underline;
+    font-size: large;
+}
+
+.skills-list {
+    list-style: none;
+    margin: 5px;
+    padding: 0;
+}
+
+.im-from-wrapper {
+    background: #141414;
+    position: absolute;
+    top: 980px;
+    width: 100%;
+    height: 500px;
+    color: white;
+    text-align: center;
+}
+
+.location-info {
+    margin: 10px;
+}
+    
+img.vancouver {
+    position: absolute;
+    top: 100px;
+    right: 10%;
+    width: 300px;
+}
+
+@media  screen and (max-width:992px){
+    .about-wrapper{
+        flex-direction: row;
+    }
+}

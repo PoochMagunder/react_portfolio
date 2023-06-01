@@ -1,0 +1,53 @@
+.resume-wrapper {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.resume-header {
+    margin-top: -1px;
+    height: 50px;
+    background: #141414af;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    border-bottom: #141414;
+    border-bottom-style: solid;
+}
+
+.resume-container {
+    background-color: #141414af;
+    position: absolute;
+    height: 480px;
+    color: white;
+    width: 310px;
+    left: 10%;
+    bottom: 17%;
+    border: #141414;
+    border-style: solid;
+}
+
+.resume-img {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 300px;
+}
+
+#downloadBtn {
+    justify-content: center;
+    position: absolute;
+    bottom: 7px;
+    left: 25%;
+    background-color: #141414;
+    color: white;
+    font-size: large;
+    font-family:'Quicksand', sans-serif;
+    border-radius: 5px;
+}
+
+#resume {
+    margin-top: 50px;
+    
+}
