@@ -1,7 +1,7 @@
 {
   "name": "my-react-portfolio",
   "version": "0.1.0",
-  "homepage": "http://poochmagunder.github.io/react_portfolio",
+  "homepage": "http://PoochMagunder.github.io/react_portfolio.git",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
