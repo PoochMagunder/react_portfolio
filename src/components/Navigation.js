@@ -9,7 +9,6 @@ const NavApp = () => {
     return (
         <>
             <Navbar collapseOnSelect className='Nav' bg='dark' expand='md' sticky='top'>
-                <Container>
                     <Navbar.Brand as={Link} to='/' className="brand-image">
                         <img
                             className='d-inline-block align-top m-2'
@@ -18,6 +17,7 @@ const NavApp = () => {
                             alt='Devon Alexander Eadie'
                         />
                     </Navbar.Brand>
+                <Container className='nav-container'>
                     <Navbar.Toggle className='nav-button' aria-controls='navbar' />
                     <Navbar.Collapse className='nav-collapse' id='navbar'>
                         <Nav className='nav-links ml-auto'>

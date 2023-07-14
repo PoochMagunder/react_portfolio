@@ -1,29 +1,28 @@
 .resume-wrapper {
-    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .resume-header {
-    margin-top: -1px;
-    height: 50px;
+    height: 60px;
     background: #141414af;
     color: white;
     text-align: left;
-    padding: 10px;
+    padding: 15px;
     border-bottom: #141414;
     border-bottom-style: solid;
+    font-size: 18px;
 }
 
 .resume-container {
+    margin-top: 50px;
     background-color: #141414af;
     position: absolute;
     height: 480px;
     color: white;
     width: 310px;
-    left: 10%;
-    bottom: 17%;
+    left: 40%;
     border: #141414;
     border-style: solid;
 }
@@ -50,4 +49,12 @@
 #resume {
     margin-top: 50px;
     
+}
+
+@media screen and (max-width: 810px) {
+  
+    .resume-container{
+        margin-top: 20px;
+        left: 10%;
+    }
 }
