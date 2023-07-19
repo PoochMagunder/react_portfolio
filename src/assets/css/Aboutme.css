@@ -29,6 +29,7 @@ img.image {
 }
 
 .my-info {
+    padding: 25px;
     position: absolute;
     color: white;
     background: #141414af;
@@ -43,7 +44,14 @@ img.image {
     border-bottom-style: solid;
 }
 
+.my-info-p {
+    padding-top: 10px;
+    line-height: 1.8;
+    font-size: 17px;
+}
+
 .skills-info {
+    font-size: 17px;
     border-top: #141414;
     border-top-style: solid;
     border-left: #141414;
@@ -62,11 +70,12 @@ img.image {
     text-decoration: underline;
     font-size: large;
     color: darkgrey;
+    margin-top: 10px;
 }
 
 .skills-list {
     list-style: none;
-    margin: 5px;
+    margin: 10px;
     padding: 0;
 }
 
