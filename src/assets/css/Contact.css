@@ -16,26 +16,41 @@
 }
 
 .contact-container {
+    margin-top: 50px;
     background-color: #141414af;
     position: absolute;
-    height: 200px;
+    height: 300px;
     color: white;
     text-align: center;
     width: 500px;
     left: 35%;
-    bottom: 35%;
+    bottom: 30%;
     border: #141414;
     border-style: solid;
 }
 
-#contact {
-    margin-top: 50px;
-    
+.inner-container {
+    margin-top: 20px;
+}
+
+.contact-btn {
+    margin-top: 10px;
+    color: white;
+    background-color:#141414;
+    border-radius: 4px;
+}
+
+.contact {
+    margin-top: 20px;
+
 }
 
 @media screen and (max-width: 810px) {
     .contact-container {
-     width: 315px;
-     left: 10%;
+        position: absolute;
+        top: 235px;
+        height: 385px;
+        width: 315px;
+        left: 10%;
     }
- }
+}
