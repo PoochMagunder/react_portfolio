@@ -1,8 +1,15 @@
 import React from "react";
+import { saveAs } from "file-saver";
 import '../assets/css/Resume.css';
 import ResumeImg from '../assets/img/Screenshot (1).png';
 
 const Resume = () => {
+
+        const handleDownloadPDF = () => {
+          const pdfURL = 'public/Devon_Eadie_-_.pdf';
+          saveAs(pdfURL, 'DevonEadiesResume.pdf');
+        };
+
 
     return (
         <div className="resume-wrapper">
@@ -14,7 +21,7 @@ const Resume = () => {
                         src={ResumeImg}
                         alt="img-of-resume">
                 </img>
-               <button id="downloadBtn" value="download">Download Resume</button>
+               <button onClick={handleDownloadPDF} id="downloadBtn" value="download">Download Resume</button>
             </div>
         </div>
     )
