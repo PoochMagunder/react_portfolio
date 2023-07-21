@@ -2,12 +2,13 @@ import React from "react";
 import { saveAs } from "file-saver";
 import '../assets/css/Resume.css';
 import ResumeImg from '../assets/img/Screenshot (1).png';
+import MyResume from '../assets/resume/Devon_Eadie_-_.pdf';
 
 const Resume = () => {
 
         const handleDownloadPDF = () => {
-          const pdfURL = 'public/Devon_Eadie_-_.pdf';
-          saveAs(pdfURL, 'DevonEadiesResume.pdf');
+          const pdf = MyResume;
+          saveAs(pdf, 'DevonEadiesResume.pdf');
         };
 
 
