@@ -103,15 +103,19 @@ img.vancouver {
 
 @media screen and (max-width: 907px) {
     .my-image {    
-        right: 0px;
-    }
-    img.image {
+        left: 0;
         max-width: 100vw;
+    }
+
+    img.image {
+        max-width: 386px;
     }
 
     .im-from-wrapper {
         height: 440px;
         top: 1916px;
+        border: #141414;
+        border-style: solid;
 
     }
 
@@ -122,7 +126,7 @@ img.vancouver {
 
     .my-info {
         height: 931px;
-        top: 612px;
+        top: 608px;
         width: 100vw;
         border-top: #141414;
         border-top-style: solid;
@@ -132,7 +136,7 @@ img.vancouver {
     .skills-info {
         height: 45%;
         width: 100vw;
-        top: 1540px;
+        top: 1536px;
         border-left: none;
     }
 }
