@@ -114,9 +114,9 @@ img.vancouver {
     }
 
     .my-info {
-        height: 931px;
-        top: 662px;
-        width: 386px;
+        height: 955px;
+        top: 652px;
+        width: 378px;
         border-top: #141414;
         border-top-style: solid;
         border-right: none;
@@ -124,14 +124,15 @@ img.vancouver {
 
     .skills-info {
         height: 41%;
-        width: 100vw;
+        width: 378px;
         top: 1590px;
         border-left: none;
     }
     
     .im-from-wrapper {
         height: 440px;
-        top: 1963px;
+        width: 378px;
+        top: 1985px;
         border: #141414;
         border-style: solid;
 
@@ -139,7 +140,7 @@ img.vancouver {
 
     img.vancouver {
         max-width: 300px;
-        left: 12%;
+        left: 10%;
     }
 }
 
@@ -152,7 +153,7 @@ img.vancouver {
     }
 
     img.image {
-        max-width: 386px;
+        max-width: 374px;
     }
 
     .im-from-wrapper {
