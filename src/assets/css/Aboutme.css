@@ -100,8 +100,52 @@ img.vancouver {
     width: 400px;
 }
 
+@media screen and (max-width: 415px) {
+    .my-image {
+        top: 280px;
+        left: 0;
+        max-width: fit-content;
+    }
 
-@media screen and (max-width: 907px) {
+    img.image {
+        max-width: 383px ;
+        border: #141414;
+        border-style: solid;
+    }
+
+    .my-info {
+        height: 931px;
+        top: 662px;
+        width: 386px;
+        border-top: #141414;
+        border-top-style: solid;
+        border-right: none;
+    }
+
+    .skills-info {
+        height: 41%;
+        width: 100vw;
+        top: 1590px;
+        border-left: none;
+    }
+    
+    .im-from-wrapper {
+        height: 440px;
+        top: 1963px;
+        border: #141414;
+        border-style: solid;
+
+    }
+
+    img.vancouver {
+        max-width: 300px;
+        left: 12%;
+    }
+}
+
+
+
+@media screen and (max-width: 390px) {
     .my-image {    
         left: 0;
         max-width: 100vw;
