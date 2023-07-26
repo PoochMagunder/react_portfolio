@@ -219,7 +219,43 @@ img.vancouver {
     }
 
     .my-info {
-        height: 931px;
+        height: auto;
+        top: 0;
+        width: auto;
+        border-top: #141414;
+        border-top-style: solid;
+        border-right: none;
+    }
+
+    .skills-info {
+        height: auto;
+        width: 100%;
+        top: 0;
+        border-left: none;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .my-image {
+        left: 0;
+        max-width: 100%;
+
+    }
+
+    .im-from-wrapper {
+        top: 0;
+        border: #141414;
+        border-style: solid;
+
+    }
+
+    img.vancouver {
+        max-width: 300px;
+
+    }
+
+    .my-info {
+        height: auto;
         top: 0;
         width: auto;
         border-top: #141414;
