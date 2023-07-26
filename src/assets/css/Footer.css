@@ -1,9 +1,11 @@
 .footer-wrapper {
     color: white;
     position: fixed;
-    height: 100px;
+    height: auto;
     width: 100%;
-    bottom: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background: #1f1f1f;
     margin: auto;
 }
