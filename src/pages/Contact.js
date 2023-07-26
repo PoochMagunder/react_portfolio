@@ -11,7 +11,6 @@ const Contact = () => {
             </div>
 
             <div className="contact-container">
-                <div className="inner-container">
                     <p>
                         Disclaimer:
 
@@ -20,13 +19,12 @@ const Contact = () => {
                     {showContact ? <Results /> : null}
                 </div>
             </div>
-        </div>
     )
 }
 
 const Results = () => (
     <div id="results" className="contact">
-        Email : Devon.eadie@yahoo.com
+    Email: Devon.eadie@yahoo.com
     </div>
 )
 

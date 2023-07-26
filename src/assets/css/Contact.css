@@ -1,12 +1,17 @@
 .contact-wrapper {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .contact-header {
-    height: 60px;
+    height: fit-content;
+    width: 100%;
     background: #141414af;
     color: white;
     text-align: left;
@@ -17,41 +22,74 @@
 }
 
 .contact-container {
-    margin-top: 50px;
+
     background-color: #141414af;
-    position: absolute;
-    height: 300px;
+    height: auto;
     color: white;
     text-align: center;
-    width: 500px;
-    left: 35%;
+    padding: 20px;
+    padding-bottom: 40px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 50%;
     bottom: 30%;
     border: #141414;
     border-style: solid;
 }
 
-.inner-container {
-    margin-top: 20px;
-}
-
 .contact-btn {
     margin-top: 10px;
     color: white;
-    background-color:#141414;
+    background-color: #141414;
     border-radius: 4px;
 }
 
 .contact {
-    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 50%;
+    padding: 10px;
 
 }
 
-@media screen and (max-width: 810px) {
+@media  screen and (max-width: 680px) {
+    
     .contact-container {
-        position: absolute;
-        top: 235px;
-        height: 385px;
-        width: 315px;
-        left: 10%;
+    
+        width: fit-content;
     }
+    
+}
+
+@media  screen and (max-width: 412px) {
+    
+    .contact-container {
+        height: 365px;
+        width: fit-content;
+    }
+
+    .contact {
+        position: absolute;
+        left: 0px;
+        width: 100%;
+    }
+    
+}
+
+@media  screen and (max-width: 390px) {
+    
+    .contact-container {
+        height: 375px;
+        width: fit-content;
+    }
+
+    .contact {
+        position: absolute;
+        left: 0px;
+        width: 100%;
+    }
+    
 }
