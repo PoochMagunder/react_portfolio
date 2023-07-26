@@ -55,17 +55,17 @@
 
 }
 
-@media  screen and (max-width: 680px) {
-    
+@media screen and (max-width: 680px) {
+
     .contact-container {
-    
+
         width: fit-content;
     }
-    
+
 }
 
-@media  screen and (max-width: 412px) {
-    
+@media screen and (max-width: 412px) {
+
     .contact-container {
         height: 365px;
         width: fit-content;
@@ -76,11 +76,11 @@
         left: 0px;
         width: 100%;
     }
-    
+
 }
 
-@media  screen and (max-width: 390px) {
-    
+@media screen and (max-width: 390px) {
+
     .contact-container {
         height: 375px;
         width: fit-content;
@@ -91,5 +91,5 @@
         left: 0px;
         width: 100%;
     }
-    
+
 }
