@@ -1,44 +1,40 @@
 .Nav {
-    background: #141414;
-    color: #141414;
+  background: #141414;
+  color: #141414;
 }
 
 .nav-container {
-
-    margin: 0;
+  margin: 0;
 }
 
 .brand-image {
-    justify-content: left;
-    margin: 10px;
+  justify-content: left;
+  margin: 10px;
 }
 
 .nav-collapse {
-    justify-content: right;
+  justify-content: right;
 }
 
 .nav-button {
-    color: grey;
-    margin: 10px;
+  color: grey;
+  margin: 10px;
 }
 
 a.nav-link:hover {
-    color: grey;
+  color: grey;
 }
 
 a.nav-link:visited {
-    color: white;
-
+  color: white;
 }
 
 a.nav-link:focus {
-    color: white;
-
+  color: white;
 }
 
-
 @media only screen and (max-width: 390px) {
-    .nav-container {
-        max-width: fit-content;
-    }
+  .nav-container {
+    max-width: fit-content;
+  }
 }
